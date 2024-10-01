@@ -8,7 +8,8 @@ const GitHubRepos = () => {
 
   // Replace with your GitHub username and personal access token (optional)
   const username = 'l-tting';
-  const token = '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'; // Optional, for authenticated requests
+  const token = import.meta.env.VITE_GITHUB_TOKEN;
+  console.log(token)
 
   useEffect(() => {
     const fetchRepos = async () => {

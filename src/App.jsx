@@ -37,7 +37,6 @@ const App = () => {
 
     }
    
-
   }
 const updatedState= async ()=>{
   const data = await fetchData()

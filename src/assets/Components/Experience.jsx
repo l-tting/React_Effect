@@ -2,7 +2,7 @@ const Experience =({experienceData})=>{
     console.log(experienceData)
 
     return(
-        <div className="flex text-white ml-8">
+        <div className="flex text-white ml-8 mt-8">
             <div>
                 <p className="text-[0.8rem] text-[#28E98C]">{experienceData?.years}</p>
                 <div className="mt-2">
