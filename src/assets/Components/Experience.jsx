@@ -11,10 +11,11 @@ const Experience =({experienceData})=>{
                 </div>
             </div>
             <div className="ml-16">
-                <p className="text-[0.8rem] text-[#28E98C]">{experienceData?.experience}</p>
+                <p className="text-[0.8rem] text-[#28E98C]">{experienceData?.experience }</p>
                 <p className="text-[0.4rem] mt-2 text-[#999999]">PROJECTS COMPLETED ON </p>
                 <p className="text-[0.4rem] mt-1 text-[#999999]">15 COUNTRIES </p>
             </div>
+
         </div>
     )
 };

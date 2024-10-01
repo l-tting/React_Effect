@@ -5,8 +5,12 @@ import { CardDefault } from "./assets/Components/Card";
 import NavBar from "./assets/Components/NavBar";
 import ContentSide from "./assets/Components/ContentSide";
 import Experience from "./assets/Components/Experience";
+import About from "./assets/Components/About";
+import Resume from "./assets/Components/Resume";
+import GitHubRepos from "./assets/Components/Github";
 
 const App = () => {
+  
   const [experienceData, setExperienceData] = useState({ years: 0, experience: 0 })
   const [isClicked, setIsClicked] = useState(false)
 
@@ -21,9 +25,11 @@ const App = () => {
 
     return doubledObj;
   }
+
+
   const fetchData = async () => {
     try{
-      let restfuldata = await axios.get("https://api.restful-api.dev/objects")
+      let restfuldata = await axios.get("https://github.com/l-tting?tab=repositories")
       return restfuldata.data
     }
     catch(error){
@@ -67,6 +73,13 @@ useEffect( ()=>{
         <div>
           <ContentSide />
           <Experience experienceData={experienceData} />
+          <About/>
+          <Resume/>
+
+          <div>
+         <GitHubRepos/>
+
+          </div>
         </div>
       </div>
     </div>

@@ -11,11 +11,10 @@ import {
     const updateState =(e)=>{
         console.log("Is Clicked")
         setIsClicked(!isClicked)
-
     }
 
     return (
-        <Card className=" ml-2 w-[30%] sm:w-full md:w-[40%] lg:w-[40%] xl:w-[40%] 2xl:w-[40%] bg-[#1F1F1F] border-[#999999]">
+        <Card className=" ml-2 w-[30%] sm:w-full md:w-[40%] lg:w-[40%] xl:w-[40%] 2xl:w-[40%] bg-[#1F1F1F] border-[#999999] h-fit">
 
         <CardHeader color="blue-gray" className="relative h-24">
   
