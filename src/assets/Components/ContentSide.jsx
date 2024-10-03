@@ -10,15 +10,15 @@ const ContentSide = ()=>{
                     <p>Just simple like that!</p>
                 </div>
             </div>
-            <div className="text-white text-[0.4rem] space-y-1.5 border h-32 w-4 ml-12 rounded-xl mt-6">
-                <p className="mt-2.5 text-center"><i class="fa-solid fa-house"></i></p>
-                <p className="text-center"><i class="fa-solid fa-user"></i></p>
-                <p className="text-center"><i class="fa-solid fa-briefcase"></i></p>
-                <p className="text-center"><i class="fa-solid fa-bars-progress"></i></p>
-                <p className="text-center"><i class="fa-solid fa-house"></i></p>
-                <p className="text-center"><i class="fa-solid fa-house"></i></p>
-                <p className="text-center"><i class="fa-solid fa-house"></i></p>
-                <p className="text-center"><i class="fa-solid fa-envelope"></i></p>
+            <div className="text-white text-[0.3rem] space-y-1.5 border h-fit w-4 ml-[60%] rounded-xl mt-6 py-1 border-[#999999]  fixed  ">
+                <p className="mt text-center text-[#999999] hover:text-[#28E98C]"><i class="fa-solid fa-house"></i></p>
+                <p className="text-center text-[#999999] hover:text-[#28E98C]"><i class="fa-solid fa-user"></i></p>
+                <p className="text-center text-[#999999] hover:text-[#28E98C]"><i class="fa-solid fa-briefcase"></i></p>
+                <p className="text-center text-[#999999] hover:text-[#28E98C]"><i class="fa-solid fa-bars-progress"></i></p>
+                <p className="text-center text-[#999999] hover:text-[#28E98C]"><i class="fa-solid fa-kitchen-set"></i></p>
+                <p className="text-center text-[#999999] hover:text-[#28E98C]"><i class="fa-solid fa-book"></i></p>
+                <p className="text-center text-[#999999] hover:text-[#28E98C]"><i class="fa-solid fa-comment"></i></p>
+                <p className="text-center text-[#999999] hover:text-[#28E98C]"><i class="fa-solid fa-envelope"></i></p>
                 
             </div>
 
