@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 import {
     Card,
     CardHeader,
@@ -8,6 +10,8 @@ import {
   } from "@material-tailwind/react";
    
   export function CardDefault({setIsClicked,isClicked}) {
+  const navigate = useNavigate()
+
     const updateState =(e)=>{
         console.log("Is Clicked")
         setIsClicked(!isClicked)
@@ -61,7 +65,7 @@ import {
         </CardBody>
         <CardFooter className="pt-0 mt-1 text-center ">
           <div >
-          <Button className="h-4 text-[0.5rem] text-black bg-[#28E98C] border-[#28E98C]" onClick={updateState}>
+          <Button className="h-4 text-[0.5rem] text-black bg-[#28E98C] border-[#28E98C]" onClick={()=>navigate("/about")}>
   
           <i class="fa-solid fa-envelope"></i>
   
